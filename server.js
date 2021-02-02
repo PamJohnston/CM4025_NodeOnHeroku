@@ -24,9 +24,6 @@ adminRouter.get('/users', function(req, res) {
 adminRouter.get('/posts', function(req, res) {
   res.send('I show all the posts!');  });
 
-// apply the routes to our application
-app.use('/admin', adminRouter); 
-///////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////
 // route middleware that will happen on every request
@@ -38,6 +35,9 @@ app.use('/admin', adminRouter);
     next(); });
 ///////////////////////////////////////////////////////////////////
 
+// apply the routes to our application
+app.use('/admin', adminRouter); 
+///////////////////////////////////////////////////////////////////
 
 
 // start the server
