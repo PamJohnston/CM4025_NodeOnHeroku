@@ -33,6 +33,7 @@ app.use('/admin', adminRouter);
   adminRouter.use(function(req, res, next) {
     // log each request to the console
     console.log(req.method, req.url);
+    console.log("Its middleware!!!");
     // continue doing what we were doing and go to the route
     next(); });
 ///////////////////////////////////////////////////////////////////
