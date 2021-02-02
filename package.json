@@ -5,18 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PamJohnston/CM4025_NodeOnHeroku.git"
-  },
-  "keywords": [
-    "lab"
-  ],
   "author": "Pam",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PamJohnston/CM4025_NodeOnHeroku/issues"
-  },
-  "homepage": "https://github.com/PamJohnston/CM4025_NodeOnHeroku#readme"
 }
